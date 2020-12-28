@@ -12,7 +12,7 @@ end
 
 def pop_with_args(array)
   array = ["garfeild", "Chihuahua", "Shiba Inu"]
-  array.pop (4-2)
+  array = array[0..-3]
 end
 
 def using_shift(array)
